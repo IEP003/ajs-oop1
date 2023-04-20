@@ -7,9 +7,9 @@ export default class Charter {
         if (arrType.indexOf(type) === -1){
             throw new Error('error')
         }
-        this.name = name,
-        this.type = type,
-        this.health = 100,
+        this.name = name;
+        this.type = type;
+        this.health = 100;
         this.level = 1;
     }
 }
